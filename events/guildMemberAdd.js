@@ -3,5 +3,4 @@ module.exports = (client, member) => {
   const channel = member.guild.channels.find(ch => ch.name === 'member-log');
   if (!channel) return;
   channel.send(`Welcome to the Sea, Pirate ${member}`);
-  guildMember.addRole(guildMember.guild.roles.find(role => role.name === "Pirate"));
 }
